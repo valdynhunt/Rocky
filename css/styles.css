@@ -213,8 +213,11 @@ ul {
 
 li {
   padding: 5px 5px 5px 5px;
-  white-space: nowrap;
   margin: 5px;
+}
+
+aside li {
+  white-space: nowrap;
 }
 
 a {
@@ -242,14 +245,14 @@ a:visited {
 
 footer {
   position: relative;
-  height: 150px;
+  height: 130px;
   width: 100%;
 }
 
 p.copyright {
   position: absolute;
   width: 100%;
-  line-height: 50px;
+  line-height: 40px;
   font-size: 0.8em;
   text-align: center;
   bottom:0;
@@ -264,7 +267,38 @@ p.copyright {
   aside {
     grid-column: 1 / span 5;
   }
+
+  aside {
+    display: flex;
+  }
+
+  .related, .instagram {
+    text-align: center;
+  }
+
+  li {
+    padding: 15px;
+
+  }
+
+  footer {
+    height: 50px;
+  }
   
+}
+
+@media (max-width: 500px) {
+
+  aside {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    background-color: #777;
+    color: moroon;
+  }
+
 }
 
 /* Mobile 320px min */
@@ -279,6 +313,7 @@ p.copyright {
       background-color: #777;
       color: moroon;
     }
+
 }
 
 /* -------- iPhone 6, 6S, 7 and 8 ---------- */
