@@ -284,6 +284,16 @@ p.copyright {
   footer {
     height: 50px;
   }
+
+  h1 {
+    font-weight: 700;
+    font-size: 4em;
+    margin: 25px 0 20px 0;
+  }
+  
+  .tagline {
+    font-size: 1.3em;
+  }
   
 }
 
@@ -297,6 +307,16 @@ p.copyright {
   a {
     background-color: #777;
     color: moroon;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 3.5em;
+    margin: 20px 0 15px 0;
+  }
+  
+  .tagline {
+    font-size: 1.2em;
   }
 
 }
