@@ -91,7 +91,7 @@ h1 {
 
 video {
   max-width: 100%;
-  background: transparent url('/img/rocky_steps.jpg') 50% 50% / cover no-repeat ;  
+  background: transparent url('img/rocky_steps.jpg') 50% 50% / cover no-repeat ;  
   outline: 1px solid maroon;
 }
 
