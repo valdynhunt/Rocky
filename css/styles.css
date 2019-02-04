@@ -274,6 +274,11 @@ p.copyright {
     figcaption {
       opacity: 1;
     }
+
+    a {
+      background-color: #777;
+      color: moroon;
+    }
 }
 
 /* -------- iPhone 6, 6S, 7 and 8 ---------- */
@@ -284,7 +289,14 @@ p.copyright {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+    figcaption {
+      opacity: 1;
+    }
 
+    a {
+      background-color: #777;
+      color: moroon;
+    }
 }
 
 /* Landscape */
@@ -295,6 +307,11 @@ p.copyright {
   and (orientation: landscape) { 
     figcaption {
       opacity: 1;
+    }
+
+    a {
+      background-color: #777;
+      color: moroon;
     }
 }
 
@@ -308,6 +325,11 @@ p.copyright {
     figcaption {
       opacity: 1;
     }
+
+    a {
+      background-color: #777;
+      color: moroon;
+    }
 }
 
 /* ------------------ Tablet ---------------- */
@@ -319,6 +341,11 @@ p.copyright {
   and (-webkit-min-device-pixel-ratio: 2) {
     figcaption {
       opacity: 1;
+    }
+
+    a {
+      background-color: #777;
+      color: moroon;
     }
 }
 
