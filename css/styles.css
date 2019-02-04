@@ -278,7 +278,6 @@ p.copyright {
 
   li {
     padding: 15px;
-
   }
 
   footer {
@@ -293,6 +292,16 @@ p.copyright {
   
   .tagline {
     font-size: 1.3em;
+  }
+
+  .cast-img {
+    height: 265px;    
+  }
+
+  .actors {
+      grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+      grid-gap: 25px;
+      padding: 1.5em;
   }
   
 }
@@ -327,6 +336,14 @@ p.copyright {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       grid-gap: 20px;
       padding: 1em;
+  }
+
+  .related, .instagram {
+    text-align: center;
+  }
+
+  li {
+    padding: 15px;
   }
 
 }
